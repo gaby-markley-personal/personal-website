@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaby's Website - Contact Page</title>
+    <link rel="stylesheet" type="text/css" href="styling.css" />
+    <script src = "index.js"> function clickAlert() {alert("Alert!");}</script>
+    <style>
+        a:hover {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADING  -->
+    <header> 
+        
+        <h1>GABY MARKLEY</h1>
+        
+        <nav class="nav-bar">
+        <a href="home.html" >HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+     
+    <div id="submitContainer">
+    <div class="submissionForm">
+    <form action="redirect.html"> 
+
+        <!-- Name -->
+        <label for="Name">Name</label> <br />
+        <input type="text" name="Name"/> <br />
+        <!-- Email -->
+         <label for="Email">Email</label><br />
+        <input type = "email" /> <br />
+        <!-- Phone Number -->
+        <label for="phoneNumber">Phone Number</label> <br />
+        <input type="tel" /><br />
+    
+        <!-- Contact Pref -->
+        <label for="contactPref"> Contact Preference</label> <br />
+        <input type="radio" id="call" name="contactPref" value="phone-Call">
+        <label for="call"> Call</label> 
+        <input type="radio" id="text" name="contactPref" value="phone-Text">
+        <label for="text"> Text </label> 
+        <input type="radio" id="email" name="contactPref" value="email">
+        <label for="email"> Email</label> <br />
+        
+       
+        <input  type="submit"/> 
+        
+    </form>
+    </div>
+    </div>
+</body>
+</html>
